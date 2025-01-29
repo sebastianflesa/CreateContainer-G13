@@ -7,7 +7,7 @@ variables:
   # Variables de entorno
   ACR_NAME: 'appg13' # Colocar el nombre de tu ACR
   IMAGE_NAME: 'appg13-nginx-s2' # Colocar el Nombre de Imagen
-  SERVICE_CONNECTION_NAME: 'appg13.azurecr.io' # Colocar nombre del Service Connection ubicado en Docker Registry-- Azure Container Registry
+  SERVICE_CONNECTION_NAME: 'app-s2-g13' # Colocar nombre del Service Connection ubicado en Docker Registry-- Azure Container Registry
 
 jobs:
   - job: BuildAndPush
