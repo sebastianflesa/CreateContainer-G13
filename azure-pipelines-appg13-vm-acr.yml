@@ -13,8 +13,8 @@ variables:
 stages:
   - stage: Deploy
     jobs:
-      - deployment: DeployToVM-App13-S2
-        displayName: 'DeployToVM-App13-S2'
+      - deployment: DeployToVMApp13S2
+        displayName: 'DeployToVMApp13S2'
         environment:
           name: 'VM-S2-G13'  # Nombre del entorno configurado en Azure DevOps
           resourceType: VirtualMachine  # Especifica que se conecta a una máquina virtual
